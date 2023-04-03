@@ -8,14 +8,23 @@ const Wrap = styled.div`
 
 const boxTransition = keyframes`
   0% {
+    border-radius: 0;
     opacity:1;
     top:20px;
   }
+  30% {
+    top:300px;
+  }
   50% {
+    border-radius: 50px;
     opacity:0;
     top:400px;
   }
+  70% {
+    top:700px;
+  }
   100% {
+    border-radius: 0;
     opacity:1;
     top:20px;
   }
